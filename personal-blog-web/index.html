@@ -1,1 +1,151 @@
+<!DOCTYPE html >
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <title>Udacity Blog</title>
+      <!-- style links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- nav bar -->
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <div class="tm-body">
+        <!--  sidebar   -->
+        <div class="sidebar">
+          <section class="sidecontent">
+            <div class="tm-banner-inner">
+              <img src="imgs/logo.min.svg" alt="logo">
+              <h1>FRONT-END WEB DEVELOPMENT</h1>
+              <p>Website Layouts, Website Components, and CSS</p>
+            </div>
+          </section>
+
+          <aside class="mainside">
+            <ul>
+              <li><a href="https://classroom.udacity.com/nanodegrees/nd0011-ent/parts/5cab1879-9f46-41cb-9445-2a2145a9d500#">HTML</a></li>
+              <li><a href="https://classroom.udacity.com/nanodegrees/nd0011-ent/parts/5cab1879-9f46-41cb-9445-2a2145a9d500#">CSS</a></li>
+              <li><a href="https://classroom.udacity.com/nanodegrees/nd0011-ent/parts/5cab1879-9f46-41cb-9445-2a2145a9d500#">CSS FLEXBOX</a></li>
+              <li><a href="https://classroom.udacity.com/nanodegrees/nd0011-ent/parts/5cab1879-9f46-41cb-9445-2a2145a9d500/modules/6627f604-de0d-446e-96a5-7968107984f9/lessons/65e700d5-932b-441a-9486-934be3bc84f1/concepts/last-viewed">CSS GRID</a></li>
+              <li><a href="https://classroom.udacity.com/nanodegrees/nd0011-ent/parts/5cab1879-9f46-41cb-9445-2a2145a9d500#">RESPONSIVE LAYOUT</a></li>
+            </ul>
+          </aside>
+        </div>
+        <!-- content -->
+        <div class="main-content">
+          <div class="box" id="box1">
+            <figure class="media-img-container">
+              <figcaption class="text">HTML TEMPLATE </figcaption>
+              <img src="imgs/gridvflex.png" alt="">
+            </figure>
+            <div class="media-body-container">
+              <section class="p-5">
+                <header>
+                <h2>GRID </h2>
+                <p class="info"><span class="creat">created by</span> <span>Shrouk</span> on <span>1/11/2020</span></p>
+                </header>
+                <p><strong>display</strong><br>
+                creates a block-level/inline-level grid container<br>
+                <strong>grid-template-rows , grid-template-columns</strong><br>
+                defines space between grid lines<br>
+
+              <hr>
+              <h2>FLEXBOX </h2>
+              <p> <strong>display</strong><br>
+              creates a block-level/inline-level flex container<br>
+              <strong>flex-direction</strong><br>
+              establishes main axis and defines flex direction<br>
+
+              </p>
+              <button class="readmore"> <a href="post.html">Read More</a> </button>
+              </section>
+            </div>
+          </div>
+
+          <div class="box" id="box2">
+            <figure class="media-img-container">
+              <figcaption class="text">RESPONSIVE DESIGN</figcaption>
+              <img src="imgs/responsive.jpg" alt="">
+            </figure>
+            <div class="media-body-container">
+              <section class="p-5">
+                <header>
+                <h2>HTML TEMPLATE</h2>
+                <p class="info"><span class="creat">created by</span> <span>Shrouk</span> on <span>1/11/2020</span></p>
+                </header>
+                <p>Responsive design is a set of best practices that allows your webpage to be fluid and change its appearance and layout depending on the device and screen width. We can achieve this with CSS Grid, Flexbox, and media queries.</p>
+                <button class="readmore"> <a href="post.html">Read More</a> </button>
+              </section>
+            </div>
+          </div>
+
+          <div class="box" id="box3">
+            <figure class="media-img-container">
+              <figcaption class="text">REFERENCES</figcaption>
+              <img src="imgs/ref.png" alt="">
+            </figure>
+            <div class="media-body-container">
+              <section class="p-5">
+                <header>
+                <h2>LIST OF LINKS</h2>
+                <p class="info"><span class="creat">created by</span> <span>Shrouk</span> on <span>1/11/2020</span></p>
+                </header>
+                <ul>
+                  <li>Udacity’s Front-End Nanodegree<a href="http://udacity.github.io/frontend-nanodegree-styleguide/index.html"> style guide</a></li>
+                  <li>Example of <a href="http://udacity.github.io/frontend-nanodegree-styleguide/css.html">CSS Grid and Flexbox properties</a></li>
+                  <li>Media query <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">documentation</a></li>
+                  <li>Responsive design <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">documentation</a></li>
+                </ul>
+                <button class="readmore"> <a href="post.html">Read More</a> </button>
+              </section>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+      <!--footer-->
+      <footer>
+        <div class="copyright">Copyright &copy; <em>Shrouk Saadon</em></div>
+        <div class="icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+      </footer>
+
+    </div>
+
+    <!-- scripts -->
+    <script src="js/all.min.js" type="text/javascript"></script>
+    <script src="js/fontawesome.min.js" type="text/javascript"></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
+  </body>
+</html>
