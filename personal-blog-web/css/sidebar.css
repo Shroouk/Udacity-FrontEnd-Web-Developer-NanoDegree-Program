@@ -1,0 +1,65 @@
+
+.sidebar{
+  top: 20px;
+}
+@media screen and (max-width: 915px)  {
+  .sidebar{
+    grid-area: header;
+  }
+  .main-content{
+    grid-area: main;
+  }
+}
+
+
+.tm-banner-inner{
+    background-image: linear-gradient(-45deg, #0384a9c9, #0393bad1, transparent), url(../imgs/bg.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 100%;
+    padding: 35px 35px 45px;
+    text-align: center;
+}
+.tm-banner-inner img{
+  width: 200px;
+  height: 60px
+}
+h1{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.mainside{
+    display: flex;
+    padding: 40px;
+    background-color: #EEEEEE;
+    font-size: 1.4rem;
+    justify-content: center;
+}
+.mainside ul{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 0px;
+}
+.mainside ul li{
+   list-style: none;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.mainside ul li a{
+    background-color: #fff;
+    padding: 17px 12px;
+    border: 1px solid #017a9b;
+    border-radius: 0;
+    color: #017a9b;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+
+}
+.mainside ul li a:hover{
+    border: 1px solid #53cbed;
+    color: #53cbed;
+}
