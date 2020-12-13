@@ -1,1 +1,36 @@
-
+.app{
+  background: url(../img/bg.jpg) 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 657px;
+    color: #fff;
+}
+.app:before {
+    position: fixed;
+    content: "";
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: rgb(107 98 130 / 35%);
+}
+h1{
+  font-family: 'Lobster', cursive;
+  font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 75px;
+}
+.list-group-item{
+  background-color: hsla(0,0%,100%,.2)!important;
+  font-family: 'Raleway', sans-serif;
+}
+.title{
+  font-family: 'Lobster', cursive;
+    font-size: 20px;
+    margin: 30px 0 10px 0;
+}
+.btn{
+  padding: 10px 35px;
+    font-size: 19px;
+    border-radius: 25px
+}
