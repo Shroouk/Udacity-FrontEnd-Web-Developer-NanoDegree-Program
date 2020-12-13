@@ -12,5 +12,7 @@
 ##Projects:-
 
 Project1: Personal Web Blog
+
 Project2: Landing Page
+
 Project3: Weather Journal app
