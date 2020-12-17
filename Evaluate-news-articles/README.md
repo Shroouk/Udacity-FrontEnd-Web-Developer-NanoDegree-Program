@@ -13,3 +13,5 @@ Afterwards there are 4 commands :
 `npm run test` : runs jest tests
 
 `npm run start` : starts the node server
+
+![](Capture.PNG)
