@@ -1,1 +1,21 @@
+body {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/38816/image-from-rawpixel-id-2210775-jpeg.jpg) no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   align-items: center;
+   color: white;
+}
 
+main {
+    flex: 2;
+}
+
+section {
+  max-width: 800px;
+margin: 50px auto;
+background-color: hsl(17deg, 100%, 75% / 25%);
+border-radius: 8px;
+padding: 10px;
+}
