@@ -8,6 +8,8 @@
 
 3- Web API's & Asynchronous Applications- Node & Express Environment, HTTP Requests & Routes, Asynchronous JavaScript.
 
+4- Build Tools and Single Page Web Apps.
+
 
 ### Projects:-
 
@@ -16,3 +18,5 @@ Project1: Personal Web Blog
 Project2: Landing Page
 
 Project3: Weather Journal app
+
+Project4: Evaluate a News Article with Natural Language Processing
