@@ -14,4 +14,4 @@ Afterwards there are 4 commands :
 
 `npm run start` : starts the node server
 
-![](Capture.png)
+![](capture.png)
